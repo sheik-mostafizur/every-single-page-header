@@ -1,0 +1,26 @@
+/* Styles go here */
+
+.page-header,
+.page-header-space {
+  height: 100px;
+}
+
+.page-footer,
+.page-footer-space {
+  height: 50px;
+}
+
+
+.page-header,
+.page-footer {
+  position: fixed;
+  width: 100%;
+  border-top: 1px solid black; /* for demo */
+  background: #ff8800; /* for demo */
+}
+.page-header {
+  top: 0mm;
+}
+.page-footer {
+  bottom: 0;
+}
